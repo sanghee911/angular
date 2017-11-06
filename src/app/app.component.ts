@@ -12,4 +12,5 @@ export class AppComponent {
     age: 42
   };
   members = ['Sanghee', 'Atsuko', 'Pink'];
+  products = ['product1', 'product2', 'product3'];
 }
