@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductComponent implements OnInit {
 
   constructor() { }
-
+  products = ['product1', 'product2', 'product3'];
   ngOnInit() {
   }
 

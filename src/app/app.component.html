@@ -3,14 +3,20 @@
   <h1>{{title}}</h1>
 </div>
 
-<p>Author: {{obj.name}}</p>
-<p>Age: {{obj.age}}</p>
-
-<ul>
-  <li *ngFor='let member of members'>{{member}}</li>
-</ul>
 
 <p><a routerLink="/member">Member</a></p>
 <p><a routerLink="/product">Product</a></p>
 
 <router-outlet></router-outlet>
+
+<ul>
+  <li *ngFor='let product of products'>{{product}}</li>
+</ul>
+
+<p *ngIf="username == 'sanghee911'; then firstTemp else secondTemp"></p>
+
+<ng-template #firstTemp><h1>Hello Sanghee!</h1></ng-template>
+<ng-template #secondTemp><h1>Hello user!</h1></ng-template>
+
+
+

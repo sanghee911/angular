@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MemberComponent implements OnInit {
 
   constructor() { }
-
+  members = ['Sanghee', 'Atsuko', 'Pink'];
   ngOnInit() {
   }
-
 }
