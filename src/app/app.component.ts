@@ -13,4 +13,5 @@ export class AppComponent {
   };
   members = ['Sanghee', 'Atsuko', 'Pink'];
   products = ['product1', 'product2', 'product3'];
+  somevar = null;
 }
